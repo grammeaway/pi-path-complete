@@ -1,0 +1,19 @@
+{
+  "name": "@grammeaway/pi-path-complete",
+  "version": "1.0.0",
+  "description": "Inline file-path autocompletion extension for the Pi agentic harness",
+  "type": "module",
+  "keywords": ["pi", "pi-extension", "pi-autocomplete", "path", "autocomplete", "completion", "pi-package"],
+  "license": "MIT",
+  "author": "Victor Gram Thomsen <victor@guramusoftware.com>",
+  "repository": { "type": "git", "url": "git+https://github.com/grammeaway/pi-path-complete" },
+  "bugs": { "url": "https://github.com/grammeaway/pi-path-complete/issues" },
+  "homepage": "https://github.com/grammeaway/pi-path-complete#readme",
+  "files": ["index.ts", "README.md", "LICENSE"],
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=0.79.0"
+  }
+}
